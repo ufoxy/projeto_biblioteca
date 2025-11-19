@@ -1,5 +1,7 @@
 # Biblioteca Digital — NoSQL (MongoDB Atlas)
 
+Alunos: Vinicius Marinho, Misael França, Arthur Bryan, Helder Carlos, Raysa Ferreia (Charlie)
+
 Projeto acadêmico utilizando banco orientado a documentos (MongoDB) com Python.
 
 ## Funcionalidades
@@ -8,3 +10,4 @@ Projeto acadêmico utilizando banco orientado a documentos (MongoDB) com Python.
 - Empréstimo e devolução
 - Consulta de livros
 - Persistência em MongoDB Atlas
+
