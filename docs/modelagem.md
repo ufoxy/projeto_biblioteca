@@ -22,7 +22,7 @@ biblioteca_digital/
 
 ---
 
-# 2. 📕 Collection: livros
+# 2. Collection: livros
 
 ### Estrutura do documento
 
@@ -105,5 +105,6 @@ usuarios
    └───┐
        │ referencia
 emprestimos ───────► livros
+
 
 Fim da modelagem.
