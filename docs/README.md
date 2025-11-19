@@ -8,5 +8,3 @@ Projeto acadêmico utilizando banco orientado a documentos (MongoDB) com Python.
 - Empréstimo e devolução
 - Consulta de livros
 - Persistência em MongoDB Atlas
-
-## Execução
