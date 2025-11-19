@@ -1,0 +1,29 @@
+# Exemplos de Consultas MongoDB
+
+# 1. Listar todos os livros
+db.livros.find()
+
+# 2. Livros disponíveis
+db.livros.find({ "status": "disponivel" })
+
+# 3. Buscar por autor
+db.livros.find({ "autor": /Machado/i })
+
+# 4. Livros de Romance
+db.livros.find({ "categoria": "Romance" })
+
+# 5. Empréstimos de um usuário
+db.emprestimos.find({ "usuario_id": ObjectId("ID_DO_USUARIO") })
+
+# 6. Dados completos do empréstimo (lookup)
+db.emprestimos.aggregate([
+  { 
+    $lookup: {
+      from: "livros",
+      localField: "livro_id",
+      foreignField: "_id",
+      as: "livro"
+    }
+  }
+])
+
